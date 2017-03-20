@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F85D3E61E80473700C280B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85D3E51E80473700C280B1 /* AppDelegate.swift */; };
+		1F85D3E81E80473700C280B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85D3E71E80473700C280B1 /* ViewController.swift */; };
+		1F85D3EB1E80473700C280B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85D3E91E80473700C280B1 /* Main.storyboard */; };
+		1F85D3ED1E80473700C280B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F85D3EC1E80473700C280B1 /* Assets.xcassets */; };
+		1F85D3F01E80473700C280B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85D3EE1E80473700C280B1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F85D3E21E80473700C280B1 /* whale-ios-Chandan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-Chandan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F85D3E51E80473700C280B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "whale-ios-Chandan/AppDelegate.swift"; sourceTree = "<group>"; };
+		1F85D3E71E80473700C280B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "whale-ios-Chandan/ViewController.swift"; sourceTree = "<group>"; };
+		1F85D3EA1E80473700C280B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F85D3EC1E80473700C280B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "whale-ios-Chandan/Assets.xcassets"; sourceTree = "<group>"; };
+		1F85D3EF1E80473700C280B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F85D3F11E80473700C280B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "whale-ios-Chandan/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F85D3DF1E80473700C280B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F85D3D91E80473700C280B1 = {
+			isa = PBXGroup;
+			children = (
+				1F85D3E41E80473700C280B1 /* whale-ios-Chandan */,
+				1F85D3E31E80473700C280B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F85D3E31E80473700C280B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D3E21E80473700C280B1 /* whale-ios-Chandan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F85D3E41E80473700C280B1 /* whale-ios-Chandan */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D4011E8047D900C280B1 /* Essentials */,
+				1F85D3F71E80475700C280B1 /* Extensions */,
+				1F85D3F81E80476000C280B1 /* UI */,
+				1F85D3FE1E8047BC00C280B1 /* Networking */,
+			);
+			path = "whale-ios-Chandan";
+			sourceTree = "<group>";
+		};
+		1F85D3F71E80475700C280B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1F85D3F81E80476000C280B1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D3F91E80476700C280B1 /* Cells */,
+				1F85D3FA1E80476E00C280B1 /* Storyboards */,
+				1F85D3FB1E80477600C280B1 /* Scenes */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1F85D3F91E80476700C280B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		1F85D3FA1E80476E00C280B1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F85D3FB1E80477600C280B1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D3FD1E80478900C280B1 /* Activity Scene */,
+				1F85D3FC1E80477C00C280B1 /* Answer Scene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		1F85D3FC1E80477C00C280B1 /* Answer Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Answer Scene";
+			sourceTree = "<group>";
+		};
+		1F85D3FD1E80478900C280B1 /* Activity Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Activity Scene";
+			sourceTree = "<group>";
+		};
+		1F85D3FE1E8047BC00C280B1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D3FF1E8047C400C280B1 /* Models */,
+				1F85D4001E8047C900C280B1 /* APIClient */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		1F85D3FF1E8047C400C280B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1F85D4001E8047C900C280B1 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
+		1F85D4011E8047D900C280B1 /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				1F85D3E51E80473700C280B1 /* AppDelegate.swift */,
+				1F85D3E71E80473700C280B1 /* ViewController.swift */,
+				1F85D3E91E80473700C280B1 /* Main.storyboard */,
+				1F85D3EC1E80473700C280B1 /* Assets.xcassets */,
+				1F85D3EE1E80473700C280B1 /* LaunchScreen.storyboard */,
+				1F85D3F11E80473700C280B1 /* Info.plist */,
+			);
+			name = Essentials;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F85D3E11E80473700C280B1 /* whale-ios-Chandan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F85D3F41E80473700C280B1 /* Build configuration list for PBXNativeTarget "whale-ios-Chandan" */;
+			buildPhases = (
+				1F85D3DE1E80473700C280B1 /* Sources */,
+				1F85D3DF1E80473700C280B1 /* Frameworks */,
+				1F85D3E01E80473700C280B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "whale-ios-Chandan";
+			productName = "whale-ios-Chandan";
+			productReference = 1F85D3E21E80473700C280B1 /* whale-ios-Chandan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F85D3DA1E80473700C280B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chandan B";
+				TargetAttributes = {
+					1F85D3E11E80473700C280B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 485WZNYRT6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F85D3DD1E80473700C280B1 /* Build configuration list for PBXProject "whale-ios-Chandan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F85D3D91E80473700C280B1;
+			productRefGroup = 1F85D3E31E80473700C280B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F85D3E11E80473700C280B1 /* whale-ios-Chandan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F85D3E01E80473700C280B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F85D3F01E80473700C280B1 /* LaunchScreen.storyboard in Resources */,
+				1F85D3ED1E80473700C280B1 /* Assets.xcassets in Resources */,
+				1F85D3EB1E80473700C280B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F85D3DE1E80473700C280B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F85D3E81E80473700C280B1 /* ViewController.swift in Sources */,
+				1F85D3E61E80473700C280B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F85D3E91E80473700C280B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F85D3EA1E80473700C280B1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "whale-ios-Chandan";
+			sourceTree = "<group>";
+		};
+		1F85D3EE1E80473700C280B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F85D3EF1E80473700C280B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "whale-ios-Chandan";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F85D3F21E80473700C280B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F85D3F31E80473700C280B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F85D3F51E80473700C280B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 485WZNYRT6;
+				INFOPLIST_FILE = "whale-ios-Chandan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TurnApp.whale-ios-Chandan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F85D3F61E80473700C280B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 485WZNYRT6;
+				INFOPLIST_FILE = "whale-ios-Chandan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TurnApp.whale-ios-Chandan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F85D3DD1E80473700C280B1 /* Build configuration list for PBXProject "whale-ios-Chandan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F85D3F21E80473700C280B1 /* Debug */,
+				1F85D3F31E80473700C280B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F85D3F41E80473700C280B1 /* Build configuration list for PBXNativeTarget "whale-ios-Chandan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F85D3F51E80473700C280B1 /* Debug */,
+				1F85D3F61E80473700C280B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F85D3DA1E80473700C280B1 /* Project object */;
+}
